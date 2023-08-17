@@ -1,0 +1,10 @@
+.nav {
+  /* 用 position: fixed; 可以固定住側欄 */
+  position: fixed;
+  min-width: 200px;
+  min-height: 100vh;
+  background: #F8F9FA;
+}
+.main{
+  margin-left: 200px;
+}
