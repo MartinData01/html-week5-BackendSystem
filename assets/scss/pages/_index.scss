@@ -1,10 +1,28 @@
+// 左邊 nav
 .nav {
   /* 用 position: fixed; 可以固定住側欄 */
   position: fixed;
-  min-width: 200px;
+  min-width: 296px;
   min-height: 100vh;
-  background: #F8F9FA;
 }
+.nav-link{
+  padding: 12px 32px;
+  position: relative;
+}
+.nav-link.active::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+.userFile img{
+  width: 40px;
+  height: 40px;
+}
+
+// 右邊 主要內容
 .main{
   margin-left: 200px;
 }
