@@ -50,10 +50,10 @@
           <a class="link-dark" href="#"><span class="material-icons">notifications_active</span></a>
         </nav>
         <!-- main table -->
-        <table class="table table-hover">
+        <table class="table table-hover mb-5">
           <thead>
             <tr>
-              <th scope="col">ID</th>
+              <th scope="col d-flex">ID <a href="#"><span class="material-icons link-success">arrow_downward</span></a></th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
               <th scope="col">Verified</th>
@@ -134,23 +134,25 @@
           </tbody>
         </table>
         <!-- 分頁按鈕 -->
-        <nav aria-label="Page navigation example">
-          <ul class="pagination">
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div class="navbar-page d-flex justify-content-end">
+          <nav aria-label="Page navigation example border border-success">
+            <ul class="pagination">
+              <li class="page-item border">
+                <a class="page-link border-success border-2 link-success" href="#" aria-label="Previous">
+                  <span class="material-icons">chevron_left</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">1</a></li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">2</a></li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link border border-success border-2 link-success" href="#" aria-label="Next">
+                  <span class="material-icons">chevron_right</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
 
